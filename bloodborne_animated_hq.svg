@@ -83,27 +83,27 @@
 <text x="5" y="25" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px; font-weight: 600; fill: #c9d1d9;">GitHub Activity</text>
 <line x1="111" y1="37" x2="199" y2="37" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="41" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Total Commits</text>
-<text x="230" y="41" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">567</text>
-<line x1="111" y1="53" x2="206" y2="53" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
+<text x="230" y="41" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">497</text>
+<line x1="111" y1="53" x2="213" y2="53" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="57" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Pull Requests</text>
-<text x="230" y="57" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">12</text>
+<text x="230" y="57" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">1</text>
 <line x1="111" y1="69" x2="213" y2="69" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="73" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Issues Opened</text>
-<text x="230" y="73" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">3</text>
+<text x="230" y="73" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">5</text>
 <line x1="118" y1="85" x2="164" y2="85" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="89" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Contributed to</text>
-<text x="230" y="89" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">22 repos</text>
+<text x="230" y="89" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">24 repos</text>
 <text x="5" y="109" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px; font-weight: 600; fill: #c9d1d9;">Community</text>
-<line x1="104" y1="121" x2="206" y2="121" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
+<line x1="104" y1="121" x2="199" y2="121" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="125" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Stars Earned</text>
-<text x="230" y="125" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">45</text>
+<text x="230" y="125" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">107</text>
 <line x1="83" y1="137" x2="206" y2="137" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="141" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Followers</text>
-<text x="230" y="141" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">28</text>
+<text x="230" y="141" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">16</text>
 <text x="5" y="161" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px; font-weight: 600; fill: #c9d1d9;">Streaks</text>
 <line x1="118" y1="173" x2="178" y2="173" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="177" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Current Streak</text>
-<text x="230" y="177" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">4 days</text>
+<text x="230" y="177" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">5 days</text>
 <line x1="97" y1="189" x2="178" y2="189" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />
 <text x="10" y="193" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Best Streak</text>
 <text x="230" y="193" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #e0e0e0; font-size: 15px; text-shadow: 1px 1px 2px #000000;">8 days</text>
@@ -117,90 +117,90 @@
 <circle cx="70" cy="236" r="3" fill="#e34c26" /><text x="76" y="239" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 400; fill: #8b949e; font-size: 10px;">HTML</text>
 <circle cx="115" cy="236" r="3" fill="#563d7c" /><text x="121" y="239" style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; font-weight: 400; fill: #8b949e; font-size: 10px;">CSS</text>
 <text x="5" y="257" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #a0a0a0; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px; font-weight: 600; fill: #c9d1d9;">Contributions (Last 30 Days)</text>
-<rect x="5" y="265" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="16" y="265" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="5" y="265" width="9" height="9" rx="2" fill="#26a641" />
+<rect x="16" y="265" width="9" height="9" rx="2" fill="#26a641" />
 <rect x="27" y="265" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="38" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="49" y="265" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="60" y="265" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="71" y="265" width="9" height="9" rx="2" fill="#26a641" />
+<rect x="49" y="265" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="60" y="265" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="71" y="265" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="82" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="93" y="265" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="93" y="265" width="9" height="9" rx="2" fill="#006d32" />
 <rect x="104" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="115" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="126" y="265" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="115" y="265" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="126" y="265" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="137" y="265" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="148" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="159" y="265" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="170" y="265" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="159" y="265" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="170" y="265" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="181" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="192" y="265" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="203" y="265" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="192" y="265" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="203" y="265" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="214" y="265" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="225" y="265" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="5" y="276" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="16" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="225" y="265" width="9" height="9" rx="2" fill="#26a641" />
+<rect x="5" y="276" width="9" height="9" rx="2" fill="#26a641" />
+<rect x="16" y="276" width="9" height="9" rx="2" fill="#0e4429" />
 <rect x="27" y="276" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="38" y="276" width="9" height="9" rx="2" fill="#39d353" />
 <rect x="49" y="276" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="60" y="276" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="71" y="276" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="82" y="276" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="93" y="276" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="104" y="276" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="115" y="276" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="126" y="276" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="137" y="276" width="9" height="9" rx="2" fill="#39d353" />
+<rect x="82" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="93" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="104" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="115" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="126" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="137" y="276" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="148" y="276" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="159" y="276" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="170" y="276" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="181" y="276" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="192" y="276" width="9" height="9" rx="2" fill="#26a641" />
-<rect x="203" y="276" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="214" y="276" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="159" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="170" y="276" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="181" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="192" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="203" y="276" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="214" y="276" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="225" y="276" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="5" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="16" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="27" y="287" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="5" y="287" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="16" y="287" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="27" y="287" width="9" height="9" rx="2" fill="#006d32" />
 <rect x="38" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="49" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="60" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="71" y="287" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="49" y="287" width="9" height="9" rx="2" fill="#39d353" />
+<rect x="60" y="287" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="71" y="287" width="9" height="9" rx="2" fill="#26a641" />
 <rect x="82" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="93" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="104" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="115" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="126" y="287" width="9" height="9" rx="2" fill="#26a641" />
-<rect x="137" y="287" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="148" y="287" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="93" y="287" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="104" y="287" width="9" height="9" rx="2" fill="#39d353" />
+<rect x="115" y="287" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="126" y="287" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="137" y="287" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="148" y="287" width="9" height="9" rx="2" fill="#26a641" />
 <rect x="159" y="287" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="170" y="287" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="170" y="287" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="181" y="287" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="192" y="287" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="203" y="287" width="9" height="9" rx="2" fill="#39d353" />
-<rect x="214" y="287" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="225" y="287" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="5" y="298" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="214" y="287" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="225" y="287" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="5" y="298" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="16" y="298" width="9" height="9" rx="2" fill="#006d32" />
 <rect x="27" y="298" width="9" height="9" rx="2" fill="#006d32" />
-<rect x="38" y="298" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="38" y="298" width="9" height="9" rx="2" fill="#39d353" />
 <rect x="49" y="298" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="60" y="298" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="71" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="82" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="93" y="298" width="9" height="9" rx="2" fill="#26a641" />
-<rect x="104" y="298" width="9" height="9" rx="2" fill="#26a641" />
+<rect x="82" y="298" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="93" y="298" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="104" y="298" width="9" height="9" rx="2" fill="#0e4429" />
 <rect x="115" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="126" y="298" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="126" y="298" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="137" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="148" y="298" width="9" height="9" rx="2" fill="#26a641" />
-<rect x="159" y="298" width="9" height="9" rx="2" fill="#0e4429" />
+<rect x="148" y="298" width="9" height="9" rx="2" fill="#161b22" />
+<rect x="159" y="298" width="9" height="9" rx="2" fill="#161b22" />
 <rect x="170" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="181" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="192" y="298" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="203" y="298" width="9" height="9" rx="2" fill="#161b22" />
-<rect x="214" y="298" width="9" height="9" rx="2" fill="#0e4429" />
-<rect x="225" y="298" width="9" height="9" rx="2" fill="#26a641" />
+<rect x="181" y="298" width="9" height="9" rx="2" fill="#006d32" />
+<rect x="192" y="298" width="9" height="9" rx="2" fill="#39d353" />
+<rect x="203" y="298" width="9" height="9" rx="2" fill="#39d353" />
+<rect x="214" y="298" width="9" height="9" rx="2" fill="#39d353" />
+<rect x="225" y="298" width="9" height="9" rx="2" fill="#39d353" />
 </g>
 <rect x="2" y="2" width="796" height="401" fill="none" stroke="#0d0d10" stroke-width="4" />
 <rect x="2" y="2" width="796" height="401" fill="none" stroke="#d4af37" stroke-width="2" rx="4" />
