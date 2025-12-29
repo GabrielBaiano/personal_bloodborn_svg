@@ -423,12 +423,12 @@ if __name__ == "__main__":
     import argparse
     
     parser = argparse.ArgumentParser(description='Convert GIF to Animated SVG with GitHub Stats Overlay')
-    parser.add_argument('--input', default='input.gif', help='Input GIF file path')
+    parser.add_argument('--input', default='input_v2.gif', help='Input GIF file path')
     parser.add_argument('--output', default='bloodborne_animated_hq.svg', help='Output SVG file path')
-    parser.add_argument('--width', type=int, default=800, help='Target width in pixels')
-    parser.add_argument('--skip', type=int, default=3, help='Frame skip count (higher = fewer frames)')
-    parser.add_argument('--quality', type=int, default=80, help='JPEG Quality (1-100)')
-    parser.add_argument('--crop_bottom', type=int, default=36, help='Pixels to crop from bottom')
+    parser.add_argument('--width', type=int, default=1000, help='Target width in pixels')
+    parser.add_argument('--skip', type=int, default=4, help='Frame skip count (higher = fewer frames)')
+    parser.add_argument('--quality', type=int, default=90, help='JPEG Quality (1-100)')
+    parser.add_argument('--crop_bottom', type=int, default=90, help='Pixels to crop from bottom')
     
     args = parser.parse_args()
     
