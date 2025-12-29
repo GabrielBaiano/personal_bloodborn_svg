@@ -19,7 +19,7 @@ This project generates a high-quality, animated SVG that displays your GitHub st
 To add this to your GitHub Profile `README.md`, simply use the following image link (replace `GabrielBaiano` with your username if you forked this):
 
 ```markdown
-![Bloodborne Stats](https://github.com/GabrielBaiano/personal_bloodborn_svg/blob/main/bloodborne_animated_hq.svg)
+![Bloodborne Stats](https://raw.githubusercontent.com/GabrielBaiano/personal_bloodborn_svg/main/bloodborne_animated_hq.svg)
 ```
 
 ## ⚙️ How it Works
