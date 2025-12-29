@@ -96,19 +96,18 @@ def calculate_streak(weeks):
     
     return current_streak, max_best
 
-def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_frames=2, quality=70):
+def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_frames=2, quality=70, crop_bottom=36):
     print(f"Opening {input_path}...")
     img = Image.open(input_path)
     
-    # Crop logic to remove AI watermarks (usually at bottom)
-    # Original is 640x360. Watermarks are typically in the last 30-40px.
-    # We will crop the bottom 36 pixels (10% of 360).
-    crop_pixels = 36
+    # Analyze first frame to establish dimensions
     w, h = img.size
-    print(f"Cropping bottom {crop_pixels} pixels to remove logos...")
     
-    # Calculate new dimensions for info
-    new_h = h - crop_pixels
+    # Crop bottom 36-80 pixels (Watermark removal)
+    print(f"Cropping bottom {crop_bottom} pixels to remove logos...")
+    
+    # Calculate new dimensions for info after cropping
+    new_h = h - crop_bottom
     
     # Calculate aspect ratio of cropped image
     aspect = new_h / w
@@ -252,11 +251,12 @@ def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_fr
         else:
             print("Failed to fetch data. Using fallback.")
             
-    # Overlay Container Group - Centered vertically
-    # Height of content increased to approx 310px. SVG Height 405px.
-    # Top margin should be approx (405 - 310) / 2 = 47.5 -> ~48px.
-    # Moved further left: target_width - 280 (was 260)
-    svg_content.append(f'<g transform="translate({target_width - 280}, 48)">')
+    # Overlay Container Group
+    # Moved further left. Panel width will be ~365px (matching heatmap).
+    # Target width 900. Right margin ~55px.
+    # Start X = 900 - 55 - 365 = 480.
+    # Translate X = target_width - 420 (approx).
+    svg_content.append(f'<g transform="translate({target_width - 420}, 30)">')
     
     
     # Colors (Bloodborne Theme)
@@ -265,22 +265,22 @@ def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_fr
     c_grey = "#a0a0a0" # Warm grey
     c_green = "#577a57" # Dull green for stats
     
-    # Styles - Bloodborne Aesthetic (Serif, Elegant, Gothic)
-    # Using Web-safe serif fonts to ensure it renders on GitHub
+    # Styles - Bloodborne Aesthetic
     font_stack = "'Times New Roman', 'Georgia', serif"
     
+    # Fonts
     style_text = f'font-family: {font_stack}; font-weight: 700; fill: {c_gold}; text-shadow: 2px 2px 4px #000000; letter-spacing: 1px;'
-    style_label = f'font-family: {font_stack}; font-weight: 400; fill: {c_grey}; font-size: 13px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;'
-    style_value = f'font-family: {font_stack}; font-weight: 700; fill: {c_white}; font-size: 15px; text-shadow: 1px 1px 2px #000000;'
+    style_label = f'font-family: {font_stack}; font-weight: 400; fill: {c_grey}; font-size: 14px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;'
+    style_value = f'font-family: {font_stack}; font-weight: 700; fill: {c_white}; font-size: 17px; text-shadow: 1px 1px 2px #000000;'
+    style_header = f'font-family: {font_stack}; font-weight: 600; fill: #c9d1d9; font-size: 15px; text-shadow: 1px 1px 2px #000000;'
     
     # Title
-    svg_content.append(f'<text x="0" y="0" style="{style_text} font-size: 20px;">Gabriel\'s Stats</text>')
+    svg_content.append(f'<text x="0" y="0" style="{style_text} font-size: 24px;">Gabriel\'s Stats</text>')
     
-    # Divider - Ornate Style
-    # A line with a diamond in the middle. Width increased to 240.
-    svg_content.append(f'<line x1="0" y1="10" x2="240" y2="10" stroke="{c_gold}" stroke-width="1" opacity="0.6" />')
-    # Diamond shape in center (x=120)
-    svg_content.append(f'<rect x="116" y="6" width="8" height="8" transform="rotate(45 120 10)" fill="{c_gold}" />')
+    # Divider (Width ~365 to match Heatmap)
+    svg_content.append(f'<line x1="0" y1="12" x2="365" y2="12" stroke="{c_gold}" stroke-width="1.5" opacity="0.6" />')
+    # Diamond center ~182
+    svg_content.append(f'<rect x="178" y="8" width="8" height="8" transform="rotate(45 182 12)" fill="{c_gold}" />')
     
     # Stats Items
     stats_groups = [
@@ -300,39 +300,38 @@ def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_fr
         ])
     ]
     
-    y_pos = 25
+    y_pos = 35
     
-    # Render Groups - Compacted spacing
+    # Render Groups
     for group_name, items in stats_groups:
         # Group Header
-        svg_content.append(f'<text x="5" y="{y_pos}" style="{style_label} font-weight: 600; fill: #c9d1d9;">{group_name}</text>')
-        y_pos += 16 # Was 20
+        svg_content.append(f'<text x="5" y="{y_pos}" style="{style_header}">{group_name}</text>')
+        y_pos += 20 
         
         for label, value in items:
-            # Estimate text width to draw the connecting line (Leader Line)
-            # Approx 7px per char for 12px font
-            label_width = len(label) * 7
-            value_width = len(value) * 7
+            # Estimate text width
+            label_width = len(label) * 9
+            value_width = len(value) * 10
             
-            line_start = 10 + label_width + 10 # Padding
-            line_end = 230 - value_width - 10 # Padding (End moved to 230)
+            line_start = 10 + label_width + 10
+            line_end = 355 - value_width - 10 # Width 365, padding 10
             
             # Draw thin line
             if line_end > line_start:
-                svg_content.append(f'<line x1="{line_start}" y1="{y_pos-4}" x2="{line_end}" y2="{y_pos-4}" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />')
+                svg_content.append(f'<line x1="{line_start}" y1="{y_pos-5}" x2="{line_end}" y2="{y_pos-5}" stroke="#30363d" stroke-width="1" stroke-dasharray="2 2" opacity="0.5" />')
             
             svg_content.append(f'<text x="10" y="{y_pos}" style="{style_label}">{label}</text>')
-            svg_content.append(f'<text x="230" y="{y_pos}" text-anchor="end" style="{style_value}">{value}</text>')
-            y_pos += 16 # Was 20
-        y_pos += 4 # Spacer (Was 10)
+            svg_content.append(f'<text x="355" y="{y_pos}" text-anchor="end" style="{style_value}">{value}</text>')
+            y_pos += 20
+        y_pos += 8 
 
     # Languages Section
-    svg_content.append(f'<text x="5" y="{y_pos}" style="{style_label} font-weight: 600; fill: #c9d1d9;">Top Languages</text>')
-    y_pos += 8 # Was 10
+    svg_content.append(f'<text x="5" y="{y_pos}" style="{style_header}">Top Languages</text>')
+    y_pos += 14
     
     # Language Bar
-    bar_width = 225 # Extended width
-    h_bar = 6 # Slightly thinner
+    bar_width = 360 # Approx 365
+    h_bar = 8
     
     parts = [
         ("#f1e05a", 0.40), # JS
@@ -348,37 +347,33 @@ def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_fr
         svg_content.append(f'<rect x="{current_x}" y="{y_pos}" width="{w_seg}" height="{h_bar}" fill="{color}" />')
         current_x += w_seg
     
-    y_pos += h_bar + 12
+    y_pos += h_bar + 16
     
-    # Language Labels (Mini legend)
-    legend_style = 'font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif; font-weight: 400; fill: #8b949e; font-size: 10px;'
-    svg_content.append(f'<circle cx="10" cy="{y_pos-3}" r="3" fill="#f1e05a" /><text x="16" y="{y_pos}" style="{legend_style}">JavaScript</text>')
-    svg_content.append(f'<circle cx="70" cy="{y_pos-3}" r="3" fill="#e34c26" /><text x="76" y="{y_pos}" style="{legend_style}">HTML</text>')
-    svg_content.append(f'<circle cx="115" cy="{y_pos-3}" r="3" fill="#563d7c" /><text x="121" y="{y_pos}" style="{legend_style}">CSS</text>')
+    # Language Labels
+    legend_style = 'font-family: -apple-system, BlinkMacSystemFont, \'Segoe UI\', Helvetica, Arial, sans-serif; font-weight: 400; fill: #8b949e; font-size: 12px;'
+    svg_content.append(f'<circle cx="10" cy="{y_pos-4}" r="4" fill="#f1e05a" /><text x="18" y="{y_pos}" style="{legend_style}">JavaScript</text>')
+    svg_content.append(f'<circle cx="100" cy="{y_pos-4}" r="4" fill="#e34c26" /><text x="108" y="{y_pos}" style="{legend_style}">HTML</text>')
+    svg_content.append(f'<circle cx="170" cy="{y_pos-4}" r="4" fill="#563d7c" /><text x="178" y="{y_pos}" style="{legend_style}">CSS</text>')
     
     # Heatmap Section
-    y_pos += 18
-    svg_content.append(f'<text x="5" y="{y_pos}" style="{style_label} font-weight: 600; fill: #c9d1d9;">Contributions (Last 30 Days)</text>')
-    y_pos += 8
+    y_pos += 24
+    svg_content.append(f'<text x="5" y="{y_pos}" style="{style_header}">Contributions (Last 30 Days)</text>')
+    y_pos += 12
     
     # Heatmap Grid
-    box_size = 9 # Larger boxes (was 8)
+    box_size = 12 
     gap = 2
     start_x = 5
     
     import random
     heatmap_colors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"]
-    # Weights for random: mostly empty or low, some high
     weights = [0.4, 0.3, 0.15, 0.1, 0.05]
-    
-    # Predictable "random" for consistent output
     rng = random.Random(42)
     
-    # If we have real data, normalize it for colors
     real_data_iter = iter(stats_data["heatmap"]) if stats_data["heatmap"] else None
     
     for row in range(4): # 4 rows
-        for col in range(21): # 21 cols (Fits perfectly in 240px width)
+        for col in range(26): # 26 cols * 14px = 364px. Perfect match. * 14px = ~364px width. Fits easily.
             color = "#161b22"
             
             if real_data_iter:
@@ -425,8 +420,17 @@ def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_fr
     print(f"Total Size: {file_size:.2f} MB")
 
 if __name__ == "__main__":
-    # Settings optimized for GitHub (Target < 10MB, ideally < 5MB)
-    # 800px (Upscaled for better resolution)
-    # 33 frames (skip=3, ~30fps feel)
-    # Quality 80 (High)
-    convert_gif_to_svg_base64('input.gif', 'bloodborne_animated_hq.svg', target_width=800, skip_frames=3, quality=80)
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='Convert GIF to Animated SVG with GitHub Stats Overlay')
+    parser.add_argument('--input', default='input.gif', help='Input GIF file path')
+    parser.add_argument('--output', default='bloodborne_animated_hq.svg', help='Output SVG file path')
+    parser.add_argument('--width', type=int, default=800, help='Target width in pixels')
+    parser.add_argument('--skip', type=int, default=3, help='Frame skip count (higher = fewer frames)')
+    parser.add_argument('--quality', type=int, default=80, help='JPEG Quality (1-100)')
+    parser.add_argument('--crop_bottom', type=int, default=36, help='Pixels to crop from bottom')
+    
+    args = parser.parse_args()
+    
+    # Settings optimized for GitHub
+    convert_gif_to_svg_base64(args.input, args.output, target_width=args.width, skip_frames=args.skip, quality=args.quality, crop_bottom=args.crop_bottom)
