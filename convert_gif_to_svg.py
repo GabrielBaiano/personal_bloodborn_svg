@@ -575,11 +575,11 @@ def convert_gif_to_svg_base64(input_path, output_path, target_width=480, skip_fr
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description='Convert GIF to Animated SVG with GitHub Stats Overlay')
-    parser.add_argument('--input', default='input_nikke.webp', help='Input GIF/WebP file path')
+    parser.add_argument('--input', default='input_v2.gif', help='Input GIF file path')
     parser.add_argument('--output', default='bloodborne_animated_hq.svg', help='Output SVG file path')
     parser.add_argument('--width', type=int, default=1000, help='Target width in pixels')
-    parser.add_argument('--skip', type=int, default=2, help='Frame skip count (higher = fewer frames)')
+    parser.add_argument('--skip', type=int, default=4, help='Frame skip count (higher = fewer frames)')
     parser.add_argument('--quality', type=int, default=90, help='JPEG Quality (1-100)')
-    parser.add_argument('--crop_bottom', type=int, default=0, help='Pixels to crop from bottom')
+    parser.add_argument('--crop_bottom', type=int, default=90, help='Pixels to crop from bottom')
     args = parser.parse_args()
     convert_gif_to_svg_base64(args.input, args.output, target_width=args.width, skip_frames=args.skip, quality=args.quality, crop_bottom=args.crop_bottom)
