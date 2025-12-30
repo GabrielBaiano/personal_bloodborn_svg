@@ -36,7 +36,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add bloodborne_animated_hq.svg
-          git commit -m "chore: update stats svg [skip ci]" || echo "No changes to commit"
+          git add bloodborne_animated_hq.svg stats_history.json
+          git commit -m "Update Stats & History" || echo "No changes to commit"
           git pull --rebase origin main
           git push origin HEAD:main
