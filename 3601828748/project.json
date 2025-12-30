@@ -1,0 +1,61 @@
+{
+	"contentrating" : "Everyone",
+	"description" : "A background of a NIKKE Goddess of Victory character that interacts with clicks by playing various animations\n\nInspired by: \"thekingh4stur\"\n\nClick ‘Reset’ to restore default settings if the character’s positioning appears incorrect.",
+	"file" : "index.html",
+	"general" : 
+	{
+		"properties" : 
+		{
+			"posX" : 
+			{
+				"fraction" : false,
+				"index" : 0,
+				"max" : 100,
+				"min" : -100,
+				"order" : 100,
+				"text" : "X [00]",
+				"type" : "slider",
+				"value" : 0
+			},
+			"posY" : 
+			{
+				"fraction" : false,
+				"index" : 1,
+				"max" : 100,
+				"min" : -100,
+				"order" : 101,
+				"text" : "Y [05]",
+				"type" : "slider",
+				"value" : 5
+			},
+			"schemecolor" : 
+			{
+				"order" : 100,
+				"text" : "Color [#FFFFFF]",
+				"type" : "color",
+				"value" : "0.37254901960784315 0.34509803921568627 0.8549019607843137"
+			},
+			"size" : 
+			{
+				"fraction" : false,
+				"index" : 2,
+				"max" : 20,
+				"min" : 0,
+				"order" : 102,
+				"text" : "Size [07]",
+				"type" : "slider",
+				"value" : 7
+			}
+		}
+	},
+	"preview" : "preview.gif",
+	"ratingsex" : "none",
+	"ratingviolence" : "none",
+	"tags" : [ "Anime" ],
+	"title" : "Nikke Rei Soul Connect",
+	"type" : "Web",
+	"version" : 2,
+	"visibility" : "public",
+	"workshopid" : "3601828748",
+	"workshopurl" : "steam://url/CommunityFilePage/3601828748"
+}
