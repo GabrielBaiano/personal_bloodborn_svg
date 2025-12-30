@@ -73,13 +73,13 @@
 <path d="M 10,2 L 10,18 M 6,6 L 14,6 M 6,12 L 14,14 M 10,18 L 6,16 M 10,18 L 14,16" transform="translate(15, 85) scale(1.1)" fill="#8b0000" stroke="none" />
 <text x="45" y="101" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Blood Echoes</text>
 <text id="val-old-1" class="val-initial" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">1781</text>
-<text class="val-final" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">1781</text>
+<text class="val-final" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">1782</text>
 <line x1="10" y1="113" x2="360" y2="113" stroke="#2a2a2a" stroke-width="1" />
 <rect x="15" y="114" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 2,10 Q 10,0 18,10 Q 10,20 2,10 Z M 10,10 A 3,3 0 1,0 10,10.1" transform="translate(15, 114) scale(1.1)" fill="#4080a0" stroke="none" />
 <text x="45" y="130" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Insight (Commits)</text>
 <text id="val-old-2" class="val-initial" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">506</text>
-<text class="val-final" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">506</text>
+<text class="val-final" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">507</text>
 <line x1="10" y1="142" x2="360" y2="142" stroke="#2a2a2a" stroke-width="1" />
 <line x1="10" y1="162" x2="360" y2="162" stroke="#555" stroke-width="1" />
 <path d="M 165.0,166 Q 185.0,171 205.0,166" stroke="#777" fill="none" />
