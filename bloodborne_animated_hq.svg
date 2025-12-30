@@ -99,13 +99,13 @@
 <rect x="15" y="56" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 A 8,8 0 1,1 10,18 A 6,6 0 1,0 10,2 Z" transform="translate(15, 56) scale(1.1)" fill="#000" stroke="none" />
 <text x="45" y="72" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Level</text>
-<text id="val-old-0" class="val-initial" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">87</text>
+<text id="val-old-0" class="val-initial" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">63</text>
 <text class="val-final" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">100</text>
 <line x1="10" y1="84" x2="360" y2="84" stroke="#2a2a2a" stroke-width="1" />
 <rect x="15" y="85" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 L 10,18 M 6,6 L 14,6 M 6,12 L 14,14 M 10,18 L 6,16 M 10,18 L 14,16" transform="translate(15, 85) scale(1.1)" fill="#8b0000" stroke="none" />
 <text x="45" y="101" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Blood Echoes</text>
-<text id="val-old-1" class="val-initial" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">20833</text>
+<text id="val-old-1" class="val-initial" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">56833</text>
 <text class="val-final" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">1333</text>
 <line x1="10" y1="113" x2="360" y2="113" stroke="#2a2a2a" stroke-width="1" />
 <rect x="15" y="114" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
@@ -119,10 +119,10 @@
 <rect x="15" y="168" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,18 L 4,12 A 4,4 0 0,1 10,6 A 4,4 0 0,1 16,12 Z" transform="translate(15, 168) scale(1.1)" fill="#8b0000" stroke="none" />
 <text x="45" y="184" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Vitality (PRs)</text>
-<text id="val-old-3" class="val-initial" x="350" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">10</text>
+<text id="val-old-3" class="val-initial" x="350" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">5</text>
 <text class="val-final" x="350" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">12</text>
 <g id="upg-3" opacity="0">
-<text x="265" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 2</text>
+<text x="265" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 7</text>
 <text x="295" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
 <text x="350" y="184" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">12</text>
 </g>
@@ -130,10 +130,10 @@
 <rect x="15" y="197" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 Q 16,10 10,18 Q 4,10 10,2 Z" transform="translate(15, 197) scale(1.1)" fill="#2e8b57" stroke="none" />
 <text x="45" y="213" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Endurance (Issues)</text>
-<text id="val-old-4" class="val-initial" x="350" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">2</text>
+<text id="val-old-4" class="val-initial" x="350" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">1</text>
 <text class="val-final" x="350" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">3</text>
 <g id="upg-4" opacity="0">
-<text x="265" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 1</text>
+<text x="265" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 2</text>
 <text x="295" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
 <text x="350" y="213" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">3</text>
 </g>
@@ -141,10 +141,10 @@
 <rect x="15" y="226" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 2,10 A 4,4 0 0,1 6,6 L 14,4 L 16,8 L 12,10 L 16,14 L 10,18 L 2,10 Z" transform="translate(15, 226) scale(1.1)" fill="#000" stroke="none" />
 <text x="45" y="242" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Strength (Stars)</text>
-<text id="val-old-5" class="val-initial" x="350" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">40</text>
+<text id="val-old-5" class="val-initial" x="350" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">30</text>
 <text class="val-final" x="350" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">45</text>
 <g id="upg-5" opacity="0">
-<text x="265" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 5</text>
+<text x="265" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 15</text>
 <text x="295" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
 <text x="350" y="242" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">45</text>
 </g>
@@ -152,10 +152,10 @@
 <rect x="15" y="255" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 8,2 L 6,10 L 2,10 L 4,12 L 2,16 L 8,12 L 12,18 L 14,8 L 8,2 Z" transform="translate(15, 255) scale(1.1)" fill="#000" stroke="none" />
 <text x="45" y="271" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Skill (Flwrs)</text>
-<text id="val-old-6" class="val-initial" x="350" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">25</text>
+<text id="val-old-6" class="val-initial" x="350" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">20</text>
 <text class="val-final" x="350" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">28</text>
 <g id="upg-6" opacity="0">
-<text x="265" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 3</text>
+<text x="265" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 8</text>
 <text x="295" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
 <text x="350" y="271" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">28</text>
 </g>
@@ -163,10 +163,10 @@
 <rect x="15" y="284" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,10 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0 M 10,2 L 10,18 M 2,10 L 18,10 M 4,4 L 16,16 M 4,16 L 16,4" transform="translate(15, 284) scale(1.1)" fill="#8b0000" stroke="none" />
 <text x="45" y="300" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Bloodtinge (Strk)</text>
-<text id="val-old-7" class="val-initial" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">3</text>
+<text id="val-old-7" class="val-initial" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">2</text>
 <text class="val-final" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">4</text>
 <g id="upg-7" opacity="0">
-<text x="265" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 1</text>
+<text x="265" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 2</text>
 <text x="295" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
 <text x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">4</text>
 </g>
@@ -174,10 +174,10 @@
 <rect x="15" y="313" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 L 12,8 L 18,8 L 13,12 L 15,18 L 10,14 L 5,18 L 7,12 L 2,8 L 8,8 Z" transform="translate(15, 313) scale(1.1)" fill="#000" stroke="none" />
 <text x="45" y="329" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Arcane (Best)</text>
-<text id="val-old-8" class="val-initial" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">7</text>
+<text id="val-old-8" class="val-initial" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">5</text>
 <text class="val-final" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">8</text>
 <g id="upg-8" opacity="0">
-<text x="265" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 1</text>
+<text x="265" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 3</text>
 <text x="295" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
 <text x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">8</text>
 </g>
