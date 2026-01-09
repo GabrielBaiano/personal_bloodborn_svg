@@ -83,20 +83,20 @@
 <rect x="15" y="56" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 A 8,8 0 1,1 10,18 A 6,6 0 1,0 10,2 Z" transform="translate(15, 56) scale(1.1)" fill="#000" stroke="none" />
 <text x="45" y="72" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Level</text>
-<text id="val-old-0" class="val-initial" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">161</text>
-<text class="val-final" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">163</text>
+<text id="val-old-0" class="val-initial" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">163</text>
+<text class="val-final" x="350" y="72" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">165</text>
 <line x1="10" y1="84" x2="360" y2="84" stroke="#2a2a2a" stroke-width="1" />
 <rect x="15" y="85" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 L 10,18 M 6,6 L 14,6 M 6,12 L 14,14 M 10,18 L 6,16 M 10,18 L 14,16" transform="translate(15, 85) scale(1.1)" fill="#8b0000" stroke="none" />
 <text x="45" y="101" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Blood Echoes</text>
-<text id="val-old-1" class="val-initial" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">5076</text>
-<text class="val-final" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">2076</text>
+<text id="val-old-1" class="val-initial" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">5085</text>
+<text class="val-final" x="350" y="101" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">2085</text>
 <line x1="10" y1="113" x2="360" y2="113" stroke="#2a2a2a" stroke-width="1" />
 <rect x="15" y="114" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 2,10 Q 10,0 18,10 Q 10,20 2,10 Z M 10,10 A 3,3 0 1,0 10,10.1" transform="translate(15, 114) scale(1.1)" fill="#4080a0" stroke="none" />
 <text x="45" y="130" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Insight (Commits)</text>
-<text id="val-old-2" class="val-initial" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">785</text>
-<text class="val-final" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">786</text>
+<text id="val-old-2" class="val-initial" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">786</text>
+<text class="val-final" x="350" y="130" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">795</text>
 <line x1="10" y1="142" x2="360" y2="142" stroke="#2a2a2a" stroke-width="1" />
 <line x1="10" y1="162" x2="360" y2="162" stroke="#555" stroke-width="1" />
 <path d="M 165.0,166 Q 185.0,171 205.0,166" stroke="#777" fill="none" />
@@ -127,23 +127,23 @@
 <rect x="15" y="284" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,10 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0 M 10,2 L 10,18 M 2,10 L 18,10 M 4,4 L 16,16 M 4,16 L 16,4" transform="translate(15, 284) scale(1.1)" fill="#8b0000" stroke="none" />
 <text x="45" y="300" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Bloodtinge (Strk)</text>
-<text id="val-old-7" class="val-initial" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">16</text>
-<text class="val-final" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">17</text>
+<text id="val-old-7" class="val-initial" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">17</text>
+<text class="val-final" x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">18</text>
 <g id="upg-7" opacity="0">
 <text x="265" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 1</text>
 <text x="295" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
-<text x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">17</text>
+<text x="350" y="300" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">18</text>
 </g>
 <line x1="10" y1="312" x2="360" y2="312" stroke="#2a2a2a" stroke-width="1" />
 <rect x="15" y="313" width="22" height="22" fill="#2a2822" stroke="#5a5540" stroke-width="1"/>
 <path d="M 10,2 L 12,8 L 18,8 L 13,12 L 15,18 L 10,14 L 5,18 L 7,12 L 2,8 L 8,8 Z" transform="translate(15, 313) scale(1.1)" fill="#000" stroke="none" />
 <text x="45" y="329" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #ccb486; font-size: 18px; text-shadow: 1px 1px 2px #000000; letter-spacing: 0.5px;">Arcane (Best)</text>
-<text id="val-old-8" class="val-initial" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">16</text>
-<text class="val-final" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">17</text>
+<text id="val-old-8" class="val-initial" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">17</text>
+<text class="val-final" x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;" opacity="0">18</text>
 <g id="upg-8" opacity="0">
 <text x="265" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">+ 1</text>
 <text x="295" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 400; fill: #e0e0e0; font-size: 18px; text-shadow: 1px 1px 2px #000000;">&gt;</text>
-<text x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">17</text>
+<text x="350" y="329" text-anchor="end" style="font-family: 'Times New Roman', 'Georgia', serif; font-weight: 700; fill: #6688aa; font-size: 18px; text-shadow: 1px 1px 2px #000000;">18</text>
 </g>
 <line x1="10" y1="341" x2="360" y2="341" stroke="#2a2a2a" stroke-width="1" />
 <line x1="10" y1="364" x2="360" y2="364" stroke="#555" stroke-width="1" />
