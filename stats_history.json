@@ -5,10 +5,9 @@
   "followers": 16,
   "prs": 2,
   "issues": 3,
-  "streak_curr": 2,
+  "streak_curr": 0,
   "streak_best": 18,
   "heatmap": [
-    17,
     1,
     0,
     3,
@@ -91,6 +90,7 @@
     0,
     30,
     11,
+    0,
     0
   ]
 }
